@@ -1,0 +1,103 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env/
+.venv/
+.conda/
+
+# Data directories
+data/
+outputs/
+checkpoints/
+models/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*:Zone.Identifier
+*Zone.Identifier
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Model files
+*.onnx
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pb
+
+# Depth-Anything-V2 specific
+Depth-Anything-V2/*
+!Depth-Anything-V2/requirements.txt
+
+# Documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Temporary files
+tmp/
+temp/
+
+# Git
+.git/
+.gitattributes
+
+# Docker
+.docker/
